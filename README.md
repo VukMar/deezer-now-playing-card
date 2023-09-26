@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+#Deezer Card Showcase
+The Deezer Card Showcase is a React project that demonstrates the usage of the DeezerCard component. The DeezerCard component displays information about a currently playing track from Deezer and fetches track data from a specified API. It updates the card's content every 30 seconds and fetches data only when needed.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##Installation
+To run the Deezer Card Showcase locally, follow these steps:
 
-## Available Scripts
+Clone this repository to your local machine:
 
-In the project directory, you can run:
+`git clone https://github.com/your-username/deezer-card-showcase.git`
 
-### `npm start`
+Navigate to the project directory:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`cd deezer-card-showcase`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Install the required dependencies:
 
-### `npm test`
+`npm install`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Start the development server:
 
-### `npm run build`
+`npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open your web browser and visit http://localhost:3000 to view the Deezer Card Showcase.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Includes the DeezerCard component, which:
+Fetches track data from a specified API.
+Displays the album cover, artist name, and track title.
+Opens a link to the Deezer track when clicked.
+Updates the card's content every 30 seconds to keep the information up to date.
 
-### `npm run eject`
+##Usage
+To use the DeezerCard component in your own projects, you can follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Copy the DeezerCard.js file from the src/components directory of this repository to your project's component directory.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Import the component into your React application:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`import DeezerCard from './path-to-DeezerCard/DeezerCard';`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Use the DeezerCard component in your JSX code where you want to display the Deezer card:
 
-## Learn More
+`<DeezerCard />`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+##Configuration
+You can configure the DeezerCard component by modifying the following parameters in the DeezerCard.js file:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**apiUrl**: The URL of the API that provides track data from Deezer.
+##Dependencies
+This project relies on the following dependencies:
 
-### Code Splitting
+**React***: The core library for building the user interface.
+Make sure to install these dependencies in your project if they are not already present.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+##License
+This code is provided under the MIT License. You are free to use and modify it as needed for your projects.
 
-### Analyzing the Bundle Size
+##Author
+Vuk Marić
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+##Support
+If you have any questions or encounter any issues with this project or the DeezerCard component, please feel free to contact [Your Email Address].
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy coding! 🎵
