@@ -1,7 +1,7 @@
-#Deezer Card Showcase
+# Deezer Card Showcase
 The Deezer Card Showcase is a React project that demonstrates the usage of the DeezerCard component. The DeezerCard component displays information about a currently playing track from Deezer and fetches track data from a specified API. It updates the card's content every 30 seconds and fetches data only when needed.
 
-##Installation
+## Installation
 To run the Deezer Card Showcase locally, follow these steps:
 
 Clone this repository to your local machine:
@@ -22,7 +22,7 @@ Start the development server:
 
 Open your web browser and visit http://localhost:3000 to view the Deezer Card Showcase.
 
-##Features
+## Features
 
 Includes the DeezerCard component, which:
 Fetches track data from a specified API.
@@ -30,7 +30,7 @@ Displays the album cover, artist name, and track title.
 Opens a link to the Deezer track when clicked.
 Updates the card's content every 30 seconds to keep the information up to date.
 
-##Usage
+## Usage
 To use the DeezerCard component in your own projects, you can follow these steps:
 
 Copy the DeezerCard.js file from the src/components directory of this repository to your project's component directory.
@@ -43,23 +43,23 @@ Use the DeezerCard component in your JSX code where you want to display the Deez
 
 `<DeezerCard />`
 
-##Configuration
+## Configuration
 You can configure the DeezerCard component by modifying the following parameters in the DeezerCard.js file:
 
 **apiUrl**: The URL of the API that provides track data from Deezer.
-##Dependencies
+## Dependencies
 This project relies on the following dependencies:
 
 **React***: The core library for building the user interface.
 Make sure to install these dependencies in your project if they are not already present.
 
-##License
+## License
 This code is provided under the MIT License. You are free to use and modify it as needed for your projects.
 
 ##Author
 Vuk Marić
 
-##Support
+## Support
 If you have any questions or encounter any issues with this project or the DeezerCard component, please feel free to contact [Your Email Address].
 
 Happy coding! 🎵
