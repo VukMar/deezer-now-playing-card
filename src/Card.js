@@ -5,7 +5,7 @@ function DeezerCard() {
     const [track, setTrack] = useState(null);
 
     const fetchTrackData = () => {
-        const apiUrl = 'https://backend.vukmaric.rs/api/deezer/get_track.php';
+        const apiUrl = 'https://path-to-API';
         console.log("updating card status...");
 
         fetch(apiUrl)
@@ -39,7 +39,7 @@ function DeezerCard() {
     }, []);
 
     return (
-        <a href={track ? track.link : 'https://www.deezer.com/en/profile/876198011'} target="_blank" rel="noreferrer" className="deezer-now-playing-card">
+        <a href={track ? track.link : 'https://www.deezer.com/en/profile/your-profile-id'} target="_blank" rel="noreferrer" className="deezer-now-playing-card">
             <img src={track ? track.album.cover_big : "https://static-00.iconduck.com/assets.00/deezer-icon-512x512-2p8epo3y.png"} alt="thumbnail" className={track ? "thumbnail" : "thumbnail not"}></img>
             {track ? (
                 <div className="card-info-container">
