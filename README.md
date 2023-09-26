@@ -60,6 +60,8 @@ This code is provided under the MIT License. You are free to use and modify it a
 Vuk Marić
 
 ## Support
-If you have any questions or encounter any issues with this project or the DeezerCard component, please feel free to contact [Your Email Address].
+If you have any questions or encounter any issues with this project or the DeezerCard component, please feel free to contact vuk.s.maric@gmail.com.
+
+The info on how to setup the API to fetch the track will be available on [My Blog](https://vukmaric.rs/Blog)!
 
 Happy coding! 🎵
