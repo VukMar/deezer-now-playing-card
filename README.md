@@ -61,8 +61,8 @@ Make sure to install these dependencies in your project if they are not already 
 ## License
 This code is provided under the MIT License. You are free to use and modify it as needed for your projects.
 
-##Author
-Vuk Marić
+## Author
+**Vuk Marić**
 
 ## Support
 If you have any questions or encounter any issues with this project or the DeezerCard component, please feel free to contact vuk.s.maric@gmail.com.
