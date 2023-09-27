@@ -52,6 +52,9 @@ Use the DeezerCard component in your JSX code where you want to display the Deez
 You can configure the DeezerCard component by modifying the following parameters in the DeezerCard.js file:
 
 **apiUrl**: The URL of the API that provides track data from Deezer.
+
+You can even modify the DeezerCard.css file to meet your styling needs.
+
 ## Dependencies
 This project relies on the following dependencies:
 
