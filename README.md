@@ -70,6 +70,6 @@ This code is provided under the MIT License. You are free to use and modify it a
 ## Support
 If you have any questions or encounter any issues with this project or the DeezerCard component, please feel free to contact me on [My Website](https://vukmaric.rs/ContactMe).
 
-The info on how to setup the API to fetch the track is on [My Blog](https://vukmaric.rs/Blog/Setting%20Up%20a%20Deezer%20App%20and%20Obtaining%20an%20Access%20Token%20with%20PHP)!
+The info on how to setup the API to fetch the track is on [My Blog](https://vukmaric.rs/Blog/Deezer%20App%20API%20-%20Now%20Playing%20Card)!
 
 Happy coding! 🎵
