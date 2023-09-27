@@ -62,7 +62,7 @@ This project relies on the following dependencies:
 Make sure to install these dependencies in your project if they are not already present.
 
 ## License
-This code is provided under the MIT License. You are free to use and modify it as needed for your projects.
+This code is provided under the MIT License. Read it [HERE](/LICENSE).
 
 ## Author
 **Vuk Marić**
