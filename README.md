@@ -8,7 +8,11 @@ The Deezer Card Showcase is a React project that demonstrates the usage of the D
 ![Example Inactive](/public/ExampleInactive.PNG)
 
 ### HoverEffect
-https://github.com/VukMar/deezer-now-playing-card/blob/master/public/HoverEffect.mp4
+
+https://github.com/VukMar/deezer-now-playing-card/assets/94225856/665bc688-2fa5-449a-aea4-d6fa01108fe7
+
+
+
 ## Installation
 To run the Deezer Card Showcase locally, follow these steps:
 
