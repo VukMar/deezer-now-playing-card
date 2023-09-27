@@ -38,7 +38,7 @@ Updates the card's content every 30 seconds to keep the information up to date.
 ## Usage
 To use the DeezerCard component in your own projects, you can follow these steps:
 
-Copy the DeezerCard.js file from the src/components directory of this repository to your project's component directory.
+Copy the DeezerCard.js and DeezerCard.css file from the src/ directory of this repository to your project's component directory.
 
 Import the component into your React application:
 
