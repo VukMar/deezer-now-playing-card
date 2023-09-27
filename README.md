@@ -18,7 +18,7 @@ To run the Deezer Card Showcase locally, follow these steps:
 
 Clone this repository to your local machine:
 
-`git clone https://github.com/your-username/deezer-card-showcase.git`
+`git clone https://github.com/VukMar/deezer-card-showcase.git`
 
 Navigate to the project directory:
 
