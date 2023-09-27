@@ -6,6 +6,9 @@ The Deezer Card Showcase is a React project that demonstrates the usage of the D
 
 ### Inactive
 ![Example Inactive](/public/ExampleInactive.PNG)
+
+### HoverEffect
+/public/HoverEffect.mp4
 ## Installation
 To run the Deezer Card Showcase locally, follow these steps:
 
