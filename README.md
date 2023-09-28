@@ -60,6 +60,8 @@ You can configure the DeezerCard component by modifying the following parameters
 
 **apiUrl**: The URL of the API that provides track data from Deezer.
 
+The info on how to setup the API to fetch the track is on [My Blog](https://vukmaric.rs/Blog/Deezer%20App%20API%20-%20Now%20Playing%20Card)!
+
 You can even modify the DeezerCard.css file to meet your styling needs.
 
 ## Dependencies
