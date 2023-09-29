@@ -18,7 +18,7 @@ To run the Deezer Card Showcase locally, follow these steps:
 
 Clone this repository to your local machine:
 
-`git clone https://github.com/your-username/deezer-card-showcase.git`
+`git clone https://github.com/VukMar/deezer-card-showcase.git`
 
 Navigate to the project directory:
 
@@ -36,11 +36,12 @@ Open your web browser and visit http://localhost:3000 to view the Deezer Card Sh
 
 ## Features
 
-Includes the DeezerCard component, which:
-Fetches track data from a specified API.
-Displays the album cover, artist name, and track title.
-Opens a link to the Deezer track when clicked.
-Updates the card's content every 30 seconds to keep the information up to date.
+**Includes the DeezerCard component, which:**
+- Fetches track data from a specified API.
+- Displays the album cover, artist name, and track title.
+- Opens a link to the Deezer track when clicked, if the card is active.
+- Opens a link to the Deezer lnading page when clicked, if the card is inactive.
+- Updates the card's content every 30 seconds to keep the information up to date.
 
 ## Usage
 To use the DeezerCard component in your own projects, you can follow these steps:
@@ -59,6 +60,8 @@ Use the DeezerCard component in your JSX code where you want to display the Deez
 You can configure the DeezerCard component by modifying the following parameters in the DeezerCard.js file:
 
 **apiUrl**: The URL of the API that provides track data from Deezer.
+
+The info on how to setup the API to fetch the track is on [My Blog](https://vukmaric.rs/Blog/Deezer%20App%20API%20-%20Now%20Playing%20Card)!
 
 You can even modify the DeezerCard.css file to meet your styling needs.
 
