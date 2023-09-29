@@ -36,11 +36,12 @@ Open your web browser and visit http://localhost:3000 to view the Deezer Card Sh
 
 ## Features
 
-Includes the DeezerCard component, which:
-Fetches track data from a specified API.
-Displays the album cover, artist name, and track title.
-Opens a link to the Deezer track when clicked.
-Updates the card's content every 30 seconds to keep the information up to date.
+**Includes the DeezerCard component, which:**
+- Fetches track data from a specified API.
+- Displays the album cover, artist name, and track title.
+- Opens a link to the Deezer track when clicked, if the card is active.
+- Opens a link to the Deezer lnading page when clicked, if the card is inactive.
+- Updates the card's content every 30 seconds to keep the information up to date.
 
 ## Usage
 To use the DeezerCard component in your own projects, you can follow these steps:
