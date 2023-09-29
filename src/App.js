@@ -1,6 +1,6 @@
 import './App.css';
 
-import DeezerCard from './Card';
+import DeezerCard from './DeezerCard';
 
 function App() {
 	return (
