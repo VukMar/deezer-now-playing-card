@@ -18,19 +18,19 @@ To run the Deezer Card Showcase locally, follow these steps:
 
 Clone this repository to your local machine:
 
-`git clone https://github.com/VukMar/deezer-card-showcase.git`
+```git clone https://github.com/VukMar/deezer-card-showcase.git```
 
 Navigate to the project directory:
 
-`cd deezer-card-showcase`
+```cd deezer-card-showcase```
 
 Install the required dependencies:
 
-`npm install`
+```npm install```
 
 Start the development server:
 
-`npm start`
+```npm start```
 
 Open your web browser and visit http://localhost:3000 to view the Deezer Card Showcase.
 
@@ -50,11 +50,11 @@ Copy the DeezerCard.js and DeezerCard.css file from the src/ directory of this r
 
 Import the component into your React application:
 
-`import DeezerCard from './path-to-DeezerCard/DeezerCard';`
+```import DeezerCard from './path-to-DeezerCard/DeezerCard';```
 
 Use the DeezerCard component in your JSX code where you want to display the Deezer card:
 
-`<DeezerCard />`
+```<DeezerCard />```
 
 ## Configuration
 You can configure the DeezerCard component by modifying the following parameters in the DeezerCard.js file:
