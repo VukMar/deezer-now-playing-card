@@ -1,5 +1,5 @@
 # Deezer Card Showcase
-The Deezer Card Showcase is a React project that demonstrates the usage of the DeezerCard component. The DeezerCard component displays information about a currently playing track from Deezer and fetches track data from a specified API. It updates the card's content every 30 seconds and fetches data only when needed.
+The Deezer Card Showcase is a React project that demonstrates the usage of the DeezerCard component. The DeezerCard component displays information about a last played track from Deezer's specified user and fetches track data from a specified API. It updates the card's content every 30 seconds and fetches data only when needed.
 ## Examples
 ### Active
 ![Example Active](/public/ExampleActive.PNG)
